@@ -17,7 +17,7 @@ public class ReverseLetter {
                     if((str.charAt(count)>= 65 && str.charAt(count)<= 90)||(str.charAt(count)>= 97 && str.charAt(count)<= 122)){
                         break;
                     }
-                    //Если не буква, сохраняем на ту же позицию в массив вывода
+                    //Если не буква, сохраняем на такую же позицию в массив вывода
                     output[count] =  str.charAt(count);
                 }
                 char temp = str.charAt(i);
