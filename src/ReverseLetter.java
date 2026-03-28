@@ -19,10 +19,10 @@ public class ReverseLetter {
                     }
                     output[count] =  str.charAt(count);
                 }
-                char k = str.charAt(i);
+                char temp = str.charAt(i);
                 output[i] = str.charAt(count);
-                output[count] = k;
-                count = count - 1;
+                output[count] = temp;
+                count--;
             } else  {
                 output[i] = str.charAt(i);
             }
